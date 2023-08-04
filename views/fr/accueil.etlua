@@ -3,10 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/main.css">
     <title>Account par Data D</title>
 </head>
 <body>
-    <h1>Yo angelo</h1>
-    
+    <nav class="main__nav border" data-last="end">
+        <a href="#"><img src="" alt="icon"></a>
+        <a href="#">Accueil</a>
+        <a href="#">Rechercher des comptes</a>
+        <a href="#">FAQ</a>
+    </nav>
+    <header class="main__header border">
+        <h1>Titre</h1>
+        <p>Accroche</p>
+    </header>
+    <main class="border">
+        <section>
+            <h2>Section 1</h2>
+            <p>Paragraphe 1</p>
+        </section>
+        <section>
+            <h2>Section 2</h2>
+            <p>Paragraphe 1</p>
+        </section>
+        <section>
+            <h2>Section 3</h2>
+            <p>Paragraphe 1</p>
+        </section>
+    </main>
+    <footer class="border">
+        <section>
+            <p>paragraphe footer</p>
+        </section>
+        <nav>
+            <a href="">lien 1</a>
+            <a href="">lien 2</a>
+            <a href="">lien 3</a>
+            <a href="">lien 4</a>
+            <a href="">lien 5</a>
+        </nav>
+    </footer>
 </body>
 </html>

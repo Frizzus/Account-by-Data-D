@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "BitstromWera";
+    src: local("BitstromWera"),
+        url("../font/BitstromWeraNerdFont-Regular.ttf");
+}
+
+:root{
+    font-family: "BitstromWera";
+    font-size: 3vmin;
+}

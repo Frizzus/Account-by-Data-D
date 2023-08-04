@@ -31,7 +31,7 @@ http {
     }
 
     location /favicon.ico {
-      alias static/data-d.png;
+      alias static/favicon.ico;
     }
   }
 }
