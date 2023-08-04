@@ -1,8 +1,8 @@
 local lapis = require("lapis")
+local accueil = require("actions.accueil")
 local app = lapis.Application()
+app:enable("etlua")
 
-app:get("/", function()
-  return "Welcome to Lapis " .. require("lapis.version")
-end)
+app:match("accueil", "/", accueil.fr_get)
 
 return app

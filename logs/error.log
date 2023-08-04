@@ -1,0 +1,17 @@
+2023/08/04 17:30:44 [alert] 1228#1228: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 17:31:59 [alert] 1281#1281: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 17:47:57 [alert] 1444#1444: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 17:50:02 [alert] 1491#1491: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 17:50:44 [alert] 1516#1516: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 17:58:44 [alert] 1543#1543: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 18:02:54 [alert] 1594#1594: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 18:04:17 [alert] 1616#1616: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 18:13:25 [alert] 1686#1686: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 18:16:00 [alert] 1722#1722: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 18:41:51 [alert] 1892#1892: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 18:46:44 [alert] 1921#1921: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 18:47:42 [alert] 1953#1953: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 18:48:14 [alert] 1975#1975: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 18:48:48 [alert] 1999#1999: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 18:49:09 [alert] 2022#2022: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
+2023/08/04 18:50:01 [alert] 2043#2043: lua_code_cache is off; this will hurt performance in /mnt/c/Users/Frizzus/Documents/Web/account_by_data_d/nginx.conf.compiled:20
