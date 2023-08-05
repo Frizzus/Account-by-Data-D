@@ -13,25 +13,25 @@
         <a href="#">Rechercher des comptes</a>
         <a href="#">FAQ</a>
     </nav>
-    <header class="main__header border">
+    <header class="main__header main__container border">
         <h1>Titre</h1>
         <p>Accroche</p>
     </header>
-    <main class="border">
-        <section>
+    <main class="main__container vertical__flow border">
+        <section class="text__section">
             <h2>Section 1</h2>
-            <p>Paragraphe 1</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto possimus temporibus nihil consequuntur earum veritatis atque cum asperiores blanditiis ea. Nulla error quia explicabo consectetur officia nobis adipisci vitae accusantium.</p>
         </section>
-        <section>
+        <section class="text__section">
             <h2>Section 2</h2>
-            <p>Paragraphe 1</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa doloribus aliquid minima, odio inventore nihil aut officiis vero. Consequuntur quo unde ullam blanditiis quidem. Blanditiis rerum nobis harum quam animi!</p>
         </section>
-        <section>
+        <section class="text__section">
             <h2>Section 3</h2>
-            <p>Paragraphe 1</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore suscipit illo, voluptates, voluptatem itaque deleniti natus sed illum ipsum iste ipsam architecto fugit minus totam quisquam dolorum. Dolorum, sed possimus?</p>
         </section>
     </main>
-    <footer class="border">
+    <footer class="main__footer small__container border">
         <section>
             <p>paragraphe footer</p>
         </section>

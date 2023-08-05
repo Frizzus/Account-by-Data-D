@@ -22,7 +22,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 5rem;
 
     & > h1{
         margin-top: 0;
@@ -32,6 +31,50 @@
     & > p{
         margin-top: 0;
     }
+}
+
+.main__footer{
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.text__section{
+    padding: 0.3rem 0;
+
+    & > h2{
+        margin: 0.7rem 0;
+        margin-left: 3rem;
+    }
+
+    & > p{
+        margin: 0.5rem 0;
+        text-justify: inter-word;
+    }
+
+    /*media queries élément parent plus grand que tant de fois 3rem enlève le margin left de h2*/
+}
+
+.vertical__flow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    @media screen and (max-aspect-ratio: 12/10){
+        flex-wrap: wrap;
+    }
+}
+
+.main__container{
+    padding: 1rem 5rem;
+}
+
+.small__container{
+    padding: 0.5rem;
 }
 
 /* Devs class */
