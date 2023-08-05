@@ -6,8 +6,8 @@
     align-items: center;
 
     &> a{
-        padding: 0.5rem 1rem;
-        padding-top: 1rem;
+        padding: 0.7rem 1rem;
+        padding-top: 1.2rem;
     }
 
     &[data-last="end"] > a:last-of-type{
@@ -17,7 +17,8 @@
 }
 
 .main__header{
-    min-height: 50vh;
+    height: 50vh;
+    max-height: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +35,8 @@
 }
 
 .main__footer{
-    min-height: 30vh;
+    height: 20vh;
+    max-height: 20vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -46,15 +48,12 @@
 
     & > h2{
         margin: 0.7rem 0;
-        margin-left: 3rem;
     }
 
     & > p{
         margin: 0.5rem 0;
         text-justify: inter-word;
     }
-
-    /*media queries élément parent plus grand que tant de fois 3rem enlève le margin left de h2*/
 }
 
 .vertical__flow{

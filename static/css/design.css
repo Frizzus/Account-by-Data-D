@@ -7,4 +7,61 @@
 :root{
     font-family: "BitstromWera";
     font-size: 3vmin;
+
+    --jet: hsla(240, 1%, 22%, 1);
+    --dim-gray: hsla(0, 0%, 39%, 1);
+    --forest-green: hsla(114, 40%, 41%, 1);
+    --mantis: hsla(114, 44%, 52%, 1);
+    --black: hsla(0, 0%, 15%, 1);
+}
+
+a{
+    text-decoration: none;
+    color: var(--mantis);
+
+    &:active, &:visited{
+        color: var(--forest-green);
+    }
+
+    &:hover{
+        color: whitesmoke;
+    }
+}
+
+.bg-jet{
+    background-color: var(--jet);
+}
+.bg-gray{
+    background-color: var(--dim-gray);
+}
+.bg-forest{
+    background-color: var(--forest-green);
+}
+.bg-mantis{
+    background-color: var(--mantis);
+}
+.bg-black{
+    background-color: var(--black);
+}
+.bg-white{
+    background-color: whitesmoke;
+}
+
+.txt-jet{
+    color: var(--jet);
+}
+.txt-gray{
+    color: var(--dim-gray);
+}
+.txt-forest{
+    color: var(--forest-green);
+}
+.txt-mantis{
+    color: var(--mantis);
+}
+.txt-black{
+    color: var(--black);
+}
+.txt-white{
+    color: whitesmoke;
 }
