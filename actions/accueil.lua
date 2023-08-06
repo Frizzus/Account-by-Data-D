@@ -1,5 +1,3 @@
-
-
 local fr_get = function ()
     return {render = "fr.accueil"}
 end

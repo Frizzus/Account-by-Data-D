@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/main.css">
+    <title>Account par Data D</title>
+
+    <link rel="preload" href="static/data-d.png" as="image">
+</head>
+<body class="bg-black txt-white">
+    <nav class="main__nav bg-jet bs-bot-shade" data-last="end">
+        <a href="#" class="nav-button"><img src="static/data-d.png" alt="data d"></a>
+        <a href="/" class="nav-button">Accueil</a>
+        <a href="/recherche" class="nav-button">Rechercher des comptes</a>
+        <a href="#" class="nav-button">FAQ</a>
+    </nav>
+    <main class="main__container">
+    
+    </main>
+    <nav class="recherche__nav bg-jet bs-bot-shade">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+    </nav>
+    <footer class="main__footer small__container bg-jet bs-top-shade">
+        <section>
+            <p>paragraphe footer</p>
+        </section>
+        <nav>
+            <a href="">lien 1</a>
+            <a href="">lien 2</a>
+            <a href="">lien 3</a>
+            <a href="">lien 4</a>
+            <a href="">lien 5</a>
+        </nav>
+    </footer>
+</body>
+</html>

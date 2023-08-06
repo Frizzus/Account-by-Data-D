@@ -1,19 +1,38 @@
 .main__nav{
+    --nav-height: 3.5rem;
+    --a-padding: 0.8rem;
+    --a-padding-top: calc(var(--a-padding) * 1.6);
+
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: stretch;
+    height: var(--nav-height);
 
-    &> a{
-        padding: 0.7rem 1rem;
-        padding-top: 1.2rem;
+    & > a{
+        display: block;
+        padding: var(--a-padding);
+        padding-top: var(--a-padding-top);
+    }
+    & > a:has(img){
+        padding: 0 calc(var(--a-padding)/1.8);
+        display: flex;
+        align-items: center;
+    }
+    & img{
+        width: 3rem;
     }
 
     &[data-last="end"] > a:last-of-type{
         position: absolute;
+        height: calc(var(--nav-height) - var(--a-padding) - var(--a-padding-top) -0.2rem);
         right: 0;
     }
+}
+
+.recherche__nav{
+    
 }
 
 .main__header{

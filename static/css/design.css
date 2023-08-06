@@ -13,11 +13,13 @@
     --forest-green: hsla(114, 40%, 41%, 1);
     --mantis: hsla(114, 44%, 52%, 1);
     --black: hsla(0, 0%, 15%, 1);
+    --shade: hsla(0, 0%, 10%, 1);
 }
 
 a{
     text-decoration: none;
     color: var(--mantis);
+    transition: color 0.3s;
 
     &:active, &:visited{
         color: var(--forest-green);
@@ -64,4 +66,92 @@ a{
 }
 .txt-white{
     color: whitesmoke;
+}
+
+.bs-top-gray{
+    box-shadow: 0 -0.05rem 0.2rem var(--dim-gray);
+}
+.bs-top-jet{
+    box-shadow: 0 -0.05rem 0.2rem var(--jet);
+}
+.bs-top-shade{
+    box-shadow: 0 -0.05rem 0.2rem var(--shade);
+}
+.bs-bot-gray{
+    box-shadow: 0 0.05rem 0.2rem var(--dim-gray);
+}
+.bs-bot-jet{
+    box-shadow: 0 0.05rem 0.2rem var(--jet);
+}
+.bs-bot-shade{
+    box-shadow: 0 0.05rem 0.2rem var(--shade);
+}
+
+.nav-button{
+    transition: background-color 0.3s,
+                border-color 0.3s;
+    border-bottom: 0.2rem solid var(--jet);
+    &:hover{
+        background-color: var(--black);
+        border-bottom: 0.2rem solid var(--mantis);
+    }
+    &:active{
+        background-color: var(--black);
+        border-bottom: 0.2rem solid var(--mantis);
+    }
+}
+
+.header-caroussel{
+    --shown-pos: 90% center;
+    --hidden-pos: 0% center;
+
+    background-image: linear-gradient(to right, var(--black) 55%, transparent 95%),
+                    url("../img/crunchyroll.svg");
+    background-position: var(--shown-pos);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    animation: BackgroundSlide infinite 20s ease-out forwards;
+}
+@keyframes BackgroundSlide {
+    0%, 23%{
+        background-image: linear-gradient(to right, var(--black) 55%, transparent 95%),
+                        url("../img/crunchyroll.svg");
+        background-position: var(--shown-pos);
+    }
+    24%{
+        background-position: var(--hidden-pos);
+    }
+    
+    25%, 48%{
+        background-position: var(--shown-pos);
+        background-image: linear-gradient(to right, var(--black) 55%, transparent 95%),
+                        url("../img/deezer.svg");
+    }
+    49%{
+        background-position: var(--hidden-pos);
+    }
+
+    50%, 73%{
+        background-position: var(--shown-pos);
+        background-image: linear-gradient(to right, var(--black) 55%, transparent 95%),
+                        url("../img/geforce.svg");
+    }
+    74%{
+        background-position: var(--hidden-pos);
+    }
+
+    75%, 98%{
+        background-position: var(--shown-pos);
+        background-image: linear-gradient(to right, var(--black) 55%, transparent 95%),
+                        url("../img/steam.svg");
+    }
+    99%{
+        background-position: var(--hidden-pos);
+    }
+    100%{
+        background-image: linear-gradient(to right, var(--black) 55%, transparent 95%),
+                        url("../img/crunchyroll.svg");
+        background-position: var(--shown-pos);
+    }
 }
