@@ -32,7 +32,21 @@
 }
 
 .recherche__nav{
-    
+    display: flex;
+    justify-content: center;
+    --nav-height: 3rem;
+    height: var(--nav-height);
+    position: sticky;
+    bottom: 0;
+
+    & img{
+        width: calc(var(--nav-height) - 0.5rem);
+    }
+
+    & > button{
+        padding: 0 0.5rem;
+        margin: 0 0.2rem;
+    }
 }
 
 .main__header{
@@ -87,16 +101,18 @@
     }
 }
 
+account__list{
+    & > li{
+        display: block;        
+        margin-bottom: 1rem;
+        padding: 0.2rem 0.4rem;
+    }
+}
+
 .main__container{
     padding: 1rem 5rem;
 }
 
 .small__container{
     padding: 0.5rem;
-}
-
-/* Devs class */
-.border{
-    outline: dashed 2px violet;
-    background-color: gainsboro;
 }

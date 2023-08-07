@@ -16,13 +16,36 @@
         <a href="#" class="nav-button">FAQ</a>
     </nav>
     <main class="main__container">
-    
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga iusto reprehenderit sunt voluptatibus voluptas atque aliquid laudantium a, illo distinctio, facere architecto consequuntur culpa ipsa! Nostrum harum fuga iure obcaecati!
+        Sint, inventore sed explicabo fugiat eum illo adipisci quod, laboriosam deleniti, eos qui laborum exercitationem delectus autem ipsa aliquid est? Eos consectetur nisi nihil obcaecati natus, quae harum aspernatur quo.</p>
+        <ul class="account__list account-list">
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+            <li>salut, c'est Greg</li>
+        </ul>
     </main>
     <nav class="recherche__nav bg-jet bs-bot-shade">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
+        <button><img src="static/img/crunchyroll.svg" alt="crunchyroll"></button>
+        <button><img src="static/img/deezer.svg" alt="deezer"></button>
+        <button><img src="static/img/geforce.svg" alt="geforce"></button>
+        <button><img src="static/img/steam.svg" alt="steam"></button>
     </nav>
     <footer class="main__footer small__container bg-jet bs-top-shade">
         <section>
