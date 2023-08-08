@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/main.css">
+    <title>Account par Data D</title>
+</head>
+<body class="bg-black txt-white">
+    <a href="/" class="back__link back-link"><img src="static/img/arrow-left.svg" alt="retour"></a>
+    <main class="connection__pannel bg-jet br-15">
+        <h3>Se connecter</h3>
+        <form action="" method="post" class="">
+            <label for="#pseudo">Pseudonyme discord</label><br>
+            <input type="text" id="pseudo" class="input--text">
+            <label for="mdp">Mot de passe</label><br>
+            <input type="text" id="mdp" class="input--text">
+            <button type="submit" class="sumbit--button">Se connecter</button>
+        </form>
+        <p class="small-txt">Pas encore de compte passez sur le discord pour vous créer un ! <a href="#">par ici</a></p>
+    </main>
+</body>
+</html>

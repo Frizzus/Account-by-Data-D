@@ -1,5 +1,5 @@
 local fr_get = function ()
-    return {render = "fr.recherche"}
+    return {render = "fr.connection"}
 end
 
 return {
