@@ -16,13 +16,30 @@
     --shade: hsla(0, 0%, 10%, 1);
 }
 
+body.admin{
+    --mantis: dodgerblue;
+    --forest-green: steelblue;
+
+    & img{
+        scale: 0.7;
+    }
+}
+
+kbd{
+    background-color: whitesmoke;
+    color: var(--jet);
+    border: 0.1rem var(--forest-green) solid;
+    border-radius: 0.2rem;
+    padding: 0.1rem;
+}
+
 a{
     text-decoration: none;
-    color: var(--mantis);
+    color: var(--forest-green);
     transition: color 0.3s;
 
-    &:active, &:visited{
-        color: var(--forest-green);
+    &:active {
+        color: var(--mantis);
     }
 
     &:hover{
@@ -67,6 +84,12 @@ button{
 .bg-white{
     background-color: whitesmoke;
 }
+.bg-dodger{
+    background-color: dodgerblue;
+}
+.bg-steel{
+    background-color: steelblue;
+}
 
 .txt-jet{
     color: var(--jet);
@@ -85,6 +108,12 @@ button{
 }
 .txt-white{
     color: whitesmoke;
+}
+.txt-dodger{
+    color: dodgerblue;
+}
+.txt-steel{
+    color: steelblue;
 }
 
 .bs-top-gray{

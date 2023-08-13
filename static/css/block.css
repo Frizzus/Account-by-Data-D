@@ -21,3 +21,16 @@
     font-size: 90%;
     margin-top: 0.4rem;
 }
+
+.bloc--note{
+    min-height: 60vh;
+    background-color: var(--jet);
+    border-radius: 0.15rem;
+    outline: solid 0.1rem var(--forest-green);
+    padding: 0.5rem;
+
+    & code{
+        width: 100%;
+        height: 100%;
+    }
+}
