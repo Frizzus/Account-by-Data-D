@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="../../static/css/main.css">
     <title>Account par Data D</title>
 </head>
 <body class="bg-black txt-white">
-    <a href="/" class="back__link back-link"><img src="static/img/arrow-left.svg" alt="retour"></a>
+    <a href="/" class="back__link back-link"><img src="../../static/img/arrow-left.svg" alt="retour"></a>
     <main class="connection__pannel bg-jet br-15">
         <h3>Se connecter</h3>
-        <form action="" method="post" class="">
+        <form action="../../models/profile.php" method="post">
             <label for="#pseudo">Pseudonyme discord</label><br>
             <input type="text" id="pseudo" class="input--text" required>
             <label for="mdp">Mot de passe</label><br>
