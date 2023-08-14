@@ -11,7 +11,7 @@
     <a href="/" class="back__link back-link"><img src="../../static/img/arrow-left.svg" alt="retour"></a>
     <main class="connection__pannel bg-jet br-15">
         <h3>Se connecter</h3>
-        <form action="" method="post">
+        <form action="../../models/admin.php" method="post">
             <label for="clef">Clef admin</label><br>
             <input type="password" id="clef" class="input--text" required>
             <button type="submit" class="sumbit--button">Se connecter</button>
