@@ -1,0 +1,26 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>209</x><y>288</y><w>126</w><h>126</h></coordinates><panel_attributes>User
+--
+_id_user: NUM_
+pseudo: TEXT
+mdp: TEXT
+is_ban: BOOL</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>191</x><y>9</y><w>153</w><h>135</h></coordinates><panel_attributes>Account
+--
+_id_account:NUM_
+pseudo:TEXT
+mdp:TEXT
+informations: TEXT
+is_valid:BOOL
+#id_user:NUM
+#id_cat:NUM</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>308</x><y>135</y><w>27</w><h>171</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;170;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>425</x><y>0</y><w>162</w><h>153</h></coordinates><panel_attributes>AccountCat
+--
+_id_cat:NUM_
+cat_type:TEXT</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>92</x><y>252</y><w>135</w><h>99</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;90;130;90</additional_attributes></element><element><id>Relation</id><coordinates><x>92</x><y>72</y><w>117</w><h>117</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;110;10;10;110;10</additional_attributes></element><element><id>Relation</id><coordinates><x>335</x><y>63</y><w>108</w><h>36</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;100;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>479</x><y>261</y><w>126</w><h>99</h></coordinates><panel_attributes>Admin
+--
+_clef:TEXT_
+_pseudo:TEXT_
+is_ban:BOOL</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>29</x><y>171</y><w>135</w><h>90</h></coordinates><panel_attributes>RejectedRoll
+--
+_#id_account_
+_#id_user_
+roll_date:DATE</panel_attributes><additional_attributes></additional_attributes></element></diagram>
