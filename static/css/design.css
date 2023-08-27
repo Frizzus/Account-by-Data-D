@@ -19,10 +19,6 @@
 body.admin{
     --mantis: dodgerblue;
     --forest-green: steelblue;
-
-    & img{
-        scale: 0.7;
-    }
 }
 
 kbd{

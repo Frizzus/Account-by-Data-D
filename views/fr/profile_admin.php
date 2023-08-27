@@ -11,7 +11,7 @@
         <a href="/abricot/requetes" class="nav-button">Requêtes de compte</a>
         <a href="/abricot/invalides" class="nav-button">Comptes invalides</a>
         <a href="/abricot/bannis" class="nav-button">Utilisateurs bannis</a>
-        <a href="/" class="nav-button"><img src="../../static/img/arrow-left.svg" alt="se déconnecter"></a>
+        <a href="/" class="nav-button"><img src="../../static/img/data-d-admin.svg" alt="se déconnecter"></a>
     </nav>
     <main class="main__container">
         <h1>Espace admin</h1>

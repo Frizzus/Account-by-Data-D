@@ -10,7 +10,7 @@
 </head>
 <body class="bg-black txt-white">
     <nav class="main__nav bg-jet bs-bot-shade" data-last="end">
-        <a href="#" class="nav-button"><img src="../../static/data-d.png" alt="data d"></a>
+        <a href="#" class="nav-button"><img src="../../static/img/data-d.svg" alt="data d"></a>
         <a href="/" class="nav-button">Accueil</a>
         <a href="#" class="nav-button">FAQ</a>
         <a href="/models/profile.php" class="nav-button"><img src="../../static/img/user.svg" alt="se connecter"></a>
